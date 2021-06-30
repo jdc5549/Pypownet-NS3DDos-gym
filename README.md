@@ -5,4 +5,4 @@ An ai-gym environment that models a power network simulator (pypownet) coupled w
 
 To run a Proximal Policy Optimzation (PPO) agent on this environment for 10000 steps, run the following command from the "pypownet" directory:
 
-''' python -m pypownet.main --parameters parameters/default14 --niter 10000 --agent=PPO '''
+``` python -m pypownet.main --parameters parameters/default14 --niter 10000 --agent=PPO ```
